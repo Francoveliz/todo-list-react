@@ -29,7 +29,7 @@ function Todo(props) {
     isChecked ? { textDecoration: "line-through" } : { textDecoration: "none" }
    }
    >{texto}</p>
-   <button onClick={borrarTodo} className="btn-delete"><DeleteIcon color="error"></DeleteIcon></button>
+   <button onClick={borrarTodo} className="btn-delete"><DeleteIcon color="primary"></DeleteIcon></button>
   </div>
  )
 }
