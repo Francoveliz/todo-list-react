@@ -1,0 +1,28 @@
+.input-todo {
+  border: none;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  height: 2rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  padding: 0 1rem;
+}
+
+.btn-agregar {
+  height: 2rem;
+  border: none;
+  outline: none;
+  background: #3498db;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+
+.btn-agregar:active {
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=AgregarTodo.css.map */
