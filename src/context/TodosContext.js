@@ -2,7 +2,7 @@ import React, { useState, createContext } from 'react'
 
 export const TodosContext = createContext()
 
-export function TodosProvider(props) {
+export const TodosProvider = props=> {
  const [todos, setTodos] = useState([])
 
  return (
